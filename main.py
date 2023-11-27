@@ -3,7 +3,7 @@ from ultralyticsplus import YOLO
 import glob
 
 
-model = YOLO('keremberke/yolov8s-pcb-defect-segmentation')
+model = YOLO('keremberke/yolov8m-pcb-defect-segmentation')
 
 
 model.overrides['conf'] = 0.25  # NMS confidence threshold
